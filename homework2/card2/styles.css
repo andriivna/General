@@ -1,0 +1,37 @@
+.card{
+
+    height: 300px;
+    width: 250px;
+    border: solid black 1px;
+}
+
+h3{
+    padding-top: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main{
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: justify;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box > button{
+    width: 100px;
+    height: 35px;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 30px;
+}

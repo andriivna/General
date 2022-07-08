@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+}
+
+.box{
+    height: 300px;
+    width: 250px;
+    border: solid silver;
+}
+
+.icon{
+    display: flex;
+    color: silver;
+    justify-content:center ;
+    text-align: center;
+}
+
+.fa-star{
+    font-size: 35px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.fa-earth-americas{
+    font-size: 35px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.fa-location-dot{
+    font-size: 35px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.fa-fire{
+    font-size: 35px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+h3{
+    color: coral;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    background: #34cd9e;
+    border: #34cd9e solid;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
