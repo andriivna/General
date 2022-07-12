@@ -3,7 +3,22 @@
 
     height: 300px;
     width: 250px;
-    border: solid black 1px;
+    border: solid silver 1px;
+    position: relative;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: solid silver 1px;
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: 50%;
+    transform:translate( -50%);
+
+
 }
 
 h3{
@@ -35,4 +50,13 @@ h3{
     justify-content:center;
     align-items: center;
     column-gap: 30px;
+}
+
+i{
+    font-size: 20px;
+    color: coral;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
