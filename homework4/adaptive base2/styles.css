@@ -1,0 +1,66 @@
+.body{
+    margin: 0;
+}
+.father{
+    width: 70%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    display: flex;
+
+}
+
+.a{
+    width: 100%;
+    height: 150px;
+    background: silver;
+    border-radius: 10px;
+}
+
+.container{
+    width: 75%;
+    height: 300px;
+
+}
+
+.b{
+    width: 100%;
+    height: 150px;
+    background: mediumpurple;
+    border-radius: 10px;
+}
+
+.cde{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32%;
+    height: 150px;
+    background: #2269bb;
+    border-radius: 10px;
+}
+
+.f{
+    width: 25%;
+    height: 300px;
+    background: coral;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 570px){
+
+    .father{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .f{
+        width: 100%;
+        height: 150px;
+    }
+}

@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.father{
+    flex-wrap: wrap;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.a{
+    width: 100%;
+    height: 150px;
+    background: silver;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.main{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+
+.box{
+    height: 50%;
+    width: 30%;
+    background: cadetblue;
+}
+
+.h{
+    width: 25%;
+    height: 310px;
+    background: #16457a;
+}
+
+
+@media screen and (max-width: 570px ) and (min-width: 0){
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+        height: 310px;
+    }
+    .box{
+        width: 30%;
+    }
+
+    .h{
+        width: 100%;
+        height: 150px;
+    }
+}
