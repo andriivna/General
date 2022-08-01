@@ -96,4 +96,7 @@
 //     console.log(x);
 // }
 //
-//
+
+// let x = NaN || 'default';
+// console.log(x);
+// //
