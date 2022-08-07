@@ -148,10 +148,35 @@
 // EXAMPLE:
 //      [{name: 'Dima', age: 13}, {model: 'Camry'}] ===> [ name, age, model ]
 
+// let a = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function user() {
+//
+//         for (const item in a) {
+//             for (const itemKey in a[item]) {
+//                 console.log(itemKey);
+//             }
+//         }
+//     }
+//
+// user();
+
 //
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+// let a = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function user() {
+//
+//         for (const item in a) {
+//             console.log(`${a[0].name} ${a[0].age} ${a[1].model}`);
+//         }
+//
+// }
+//
+// user();
 
 
 // Всі функції повинні бути описані стрілочним типом!!!!
@@ -240,16 +265,81 @@
 
 // - Даны два целых числа A и В . Выведите все числа от A до B включительно, в порядке возрастания, если A < B, или в порядке убывания в противном случае.
 //
+// function num(a, b) {
+//     if (a < b) {
+//         num(a, b - 1);
+//         console.log(b);
+//     }else if (a > b) {
+//         num(a, b + 1);
+//         console.log(b);
+//     }
+// }
+//
+// num(6, 1);
+
+//
 //
 // -   функція Приймає масив та число "i", та міняє місцями обєкт який знаходиться в індексі "i" на "i+1"
 //   EXAMPLE:
 //   foo([9,8,0,4], 0) // ==> [ 8, 9, 0, 4 ]
 //   foo([9,8,0,4], 1) // ==> [ 9 ,0, 8, 4 ]
 //   foo([9,8,0,4], 2) // ==> [ 9, 8, 4, 0 ]
+
+// const arr = [9, 8, 0, 4]
 //
+//
+// const swap = (array, index) => {
+//     let tmp = array[index];
+//     array[index] = array[index + 1]
+//     array[index + 1] = tmp
+//     return arr
+// }
+//
+//
+// console.log(swap(arr, 0));
+// const arr2 = [9, 8, 0, 4];
+// const swap1 = (array, index) => {
+//     let t = array[index];
+//     array[index] = array[index + 1]
+//     array[index + 1] = t
+//     return arr2
+// }
+// console.log(swap1(arr2, 1));
+//
+//
+// const arr3 = [9, 8, 0, 4];
+// const swap2 = (array, index) => {
+//     let t = array[index];
+//     array[index] = array[index + 1]
+//     array[index + 1] = t
+//     return arr3
+// }
+//
+// console.log(swap2(arr3,2))
+
+
 // - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
 // EXAMPLE:
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
+//
+// const arr = [1,0,6,0,3]
+// const res = []
+// let count = 0
+// let index = 0
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 0) {
+//         count++
+//     } else {
+//         res[index++] = arr[i]
+//     }
+// }
+// let zeroCount = res.length
+// for (let i = 0; i < count; i++) {
+//     res[zeroCount++]=0
+// }
+//
+// console.log(res);
+
