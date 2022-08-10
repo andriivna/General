@@ -58,17 +58,23 @@
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-// let nums = [11,21,3];
-// nums.sort(function (a, b) {
-//     return a - b;
-// });
+
+
+// let nums = [11, 21, 3];
+//
+// function sortNums(nums, direction) {
+//     if (direction === 'ascending'){
+//         nums.sort((num1, num2) => num1 - num2);
+//     }else if(direction === 'descending'){
+//         nums.sort((num1, num2) => num2 - num1);
+//     }
+// }
+//
+// sortNums(nums, 'ascending');
 // console.log(nums);
-// nums.sort(function (a, b) {
-//     return b - a;
-// });
+// sortNums(nums, 'descending');
 // console.log(nums);
 
-//
 //
 // - є масив
 // let coursesAndDurationArray = [
