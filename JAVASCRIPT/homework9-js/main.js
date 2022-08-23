@@ -312,32 +312,7 @@
 //
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 
-// console.log(document.forms.form1.login);
-//
 
-// let form = document.createElement('form');
-// form.name = 'f1';
-// document.body.appendChild(form);
-//
-// let input = document.createElement('input');
-// form.appendChild(input);
-//
-// let button = document.createElement('button');
-// button.innerText = 'send';
-// form.appendChild(button);
-//
-// let form1 = document.forms.f1;
-//
-// form1.onsubmit = function (e) {
-//     e.preventDefault()
-//     if (input.value < 18) {
-//         alert("You're too young.");
-//     }else if (input.value >= 18) {
-//         alert('Your age is OK)');
-//     } else {
-//         alert('Enter your age');
-//     }
-// };
 
 // let form=document.createElement('form');
 // form.id='form';
@@ -363,4 +338,57 @@
 // })
 
 
+
+//
+// *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+
+//
+// let div = document.createElement('div');
+// document.body.appendChild(div);
+//
+// let rows = document.createElement('input');
+// rows.id = 'row';
+// rows.type = 'number';
+// rows.placeholder = 'enter rows'
+// rows.style.margin = '20px';
+// div.appendChild(rows);
+//
+// let div1 = document.createElement('div');
+// document.body.appendChild(div1);
+//
+// let columns = document.createElement('input');
+// columns.id = 'column';
+// columns.type = 'number';
+// columns.placeholder = 'enter columns'
+// columns.style.margin = '20px';
+// div1.appendChild(columns);
+//
+// let div2 = document.createElement('div');
+// document.body.appendChild(div2);
+//
+// let text = document.createElement('input');
+// text.id = 'text';
+// text.placeholder = 'enter text';
+// text.innerText = '';
+// text.style.margin = '20px';
+// div2.appendChild(text);
+//
+// btn = document.createElement('button');
+// btn.innerText = 'form';
+// div2.appendChild(btn);
+//
+// for (let i = 0; i < div.length; i++) {
+//     div.innerText = `${text.innerText}`;
+//
+//
+//
+//
+// }
+
+
+
+
+
+//     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+// (Додатковачастина для завдання)
 
