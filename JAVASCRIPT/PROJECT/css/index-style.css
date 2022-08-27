@@ -1,0 +1,32 @@
+.full{
+    background: lightpink;
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.divUser{
+    background: #6997d0;
+    width: 48%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.button{
+    margin: 10px;
+    width: 50%;
+    height: 40px;
+    background: #6997d0;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.full {
+    background-color: lightpink;
+}
+
+.postEl {
+    padding: 5px;
+    color: white;
+    background-color: lightpink;
+}
+
+.postKey {
+    background-color: #6997d0;
+    padding: 7px;
+}
+
+.comments {
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment {
+    box-sizing: border-box;
+    padding: 7px;
+    width: 20%;
+    height: 350px;
+    color: white;
+    border: #6997d0 1px solid;
+    border-radius: 5px;
+}
