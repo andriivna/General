@@ -27,7 +27,8 @@
 .button {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 90%;
+  margin-left: 5%;
     color: white;
     background-color: lightpink;
     border-color: #6997d0;

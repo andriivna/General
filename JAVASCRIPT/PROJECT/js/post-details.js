@@ -9,6 +9,7 @@ const post = JSON.parse(localStorage.getItem('post'));
 const full = document.createElement('div')
 full.setAttribute('class', 'full');
 
+
 const postEl = document.createElement('div');
 postEl.setAttribute('class', 'postEl');
 
